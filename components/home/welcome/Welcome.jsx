@@ -10,6 +10,7 @@ import {
 import { useRouter } from "expo-router";
 import { icons, images, SIZES } from "../../../constants";
 
+
 const jobTypes = ["Full-Time", "Part-Time", "Contractor"];
 
 import styles from "./welcome.style";
@@ -22,7 +23,7 @@ const Welcome = () => {
 	return (
 		<View>
 			<View style={styles.container}>
-				<Text style={styles.userName}>Hello Adrian</Text>
+				<Text style={styles.userName}>Hello Adrian !</Text>
 				<Text style={styles.welcomeMessage}>Find your perfect job</Text>
 			</View>
 
